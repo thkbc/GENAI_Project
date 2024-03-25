@@ -1,0 +1,24 @@
+﻿Hello, I need a website with a responsive design that utilizes HTML, CSS, and JS. This website must include the use of header, main, nav, section, article, aside, and footer elements. The content will entirely consist of an AI-generated portfolio for a musician. What I'm asking from you is to create links such as tour dates, about me, my albums, etc., either in the footer, header, or another div. Additionally, include an input for listening to short snippets of songs. Apart from this, I expect you to use HTML, CSS, and JS very efficiently and beautifully. Write all the code for the images, but I'll add the images myself later. Can you help me with this?
+None of them are what I want. I would like you to elaborate a lot more,
+now please write separate html and css for about.html
+footer section should stay at the bottom of the page.
+no it doesnt work footer section must be bottom of the page
+what I want you to do now, just like you did about html and css, do the same for albums and tour dates, I leave it a little bit to your originality. do the html css of both links
+you broke the css of the tour page, the page length was 3 or something, fix it from the beginning, adapt it according to other css, please don't make a mistake
+I added background image and the photo is zoomed. how can I add it in original size.
+I just asked you for a name and you said Evan Reed. It's a woman, artist. Make it female.
+okey, thanks, now i need 2 track names and 2 album names. Give a shot
+Midjourney
+a techno musician with keyboard and headset. in a distopic bluish environment. side view. hype high resolution. --ar 7:4 --s 650 --v 6.0
+
+
+an album cover of a techno musician girl giving concert with keyboard and headset with massive audience. in a distopic bluish environment. side view. hype high resolution. --ar 1:1 --s 650 --v 6.0
+
+
+an album cover of a techno musician girl floating in space with keyboard and headset with massive audience. in a distopic bluish environment. side view. hype high resolution. --ar 1:1 --s 650 --v 6.0
+TAHA EMIN KABAKCI
+
+
+
+
+ta

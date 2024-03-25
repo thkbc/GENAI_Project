@@ -1,0 +1,89 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    background-size: 1620px;
+    background-image: url(/Users/taha/Code/GENAI_Project/_a_techno_musician_with_keyboard_and_headset._in_a_dis_db23ace8-fa69-4feb-bbed-d213853590a9.png);
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: transparent;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+.albums-section .album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.albums-section .album {
+    flex-basis: calc(33% - 20px);
+    margin-bottom: 20px;
+    background: rgb(137, 208, 210);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.album img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background: #21627197;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+    .albums-section .album {
+        flex-basis: 100%;
+    }
+}

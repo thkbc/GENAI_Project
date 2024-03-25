@@ -1,0 +1,152 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    background-size: 1600px;
+    background-image: url(/Users/taha/Code/GENAI_Project/_a_techno_musician_with_keyboard_and_headset._in_a_dis_db23ace8-fa69-4feb-bbed-d213853590a9.png);
+    background-position: center;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: transparent;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding: 20px 0;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.album-list,
+.tour-dates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.album,
+.tour-date {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #21627197;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header,
+    nav,
+    main,
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.music-snippets {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.snippet {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(137, 208, 210);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.snippet-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.snippet-info h3,
+.snippet-info p {
+    margin: 0;
+}
+
+.play-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Style adjustments for active playing */
+.snippet.playing {
+    background-color: #d1e7dd;
+}
+
+.play-button.playing::after {
+    content: '❚❚';
+    /* Change play button to pause icon */
+}
